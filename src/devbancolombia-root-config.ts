@@ -12,7 +12,7 @@ import { registerApplication, start } from "single-spa";
 registerApplication({
   name: "@devbancolombia/mf-header",
   app: () => System.import("@devbancolombia/mf-header"),
-  activeWhen: ["/"]
+  activeWhen: ["/"],
 });
 
 registerApplication({
@@ -30,7 +30,7 @@ registerApplication({
 registerApplication({
   name: "@devbancolombia/mf-login",
   app: () => System.import("@devbancolombia/mf-login"),
-  activeWhen: ["/login"]
+  activeWhen: ["/login"],
 });
 
 // registerApplication({
